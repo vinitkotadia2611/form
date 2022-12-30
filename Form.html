@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../form/form.js"></script>
+</head>
+
+<body>
+    <form action="" onsubmit="formData()">
+        Product Id:<input type="number" name="id" id="id" placeholder="Enter Product Id:"><br />
+        Product Name:<input type="text" name="name" id="name" placeholder="Enter Product Name:"><br />
+        Product Price:<input type="number" name="price" id="price" placeholder="Enter Product price:"><br />
+        Product Quantity:<input type="number" name="Quantity" id="Quantity" placeholder="Enter Product Quantity:"><br />
+        <button type="submit">Submit</button>
+    </form>
+
+    <form action="" onsubmit="deleteObj()">
+        Enter id You Want to delete: <input type="number" name="number" id="num" placeholder="Enter Id"><br />
+        <button type="submit">Delete</button>
+    </form>
+
+    <form action="" onsubmit="formUpdate()">
+        Product Id:<input type="number" name="uid" id="uid" placeholder="Enter Product Id:"><br />  
+        Product Name:<input type="text" name="uname" id="uname" placeholder="Enter Product Name:"><br />
+        Product Price:<input type="number" name="uprice" id="uprice" placeholder="Enter Product price:"><br />
+        Product Quantity:<input type="number" name="uQuantity" id="uQuantity" placeholder="Enter Product Quantity:"><br />
+        <button type="submit">Update</button>
+    </form>
+    <h1 id="demo"></h1>
+</body>
+
+</html>
